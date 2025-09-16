@@ -1,42 +1,158 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+/* =============================================== */
+/* 1. IMPORTAÇÃO DAS FONTES (GOOGLE FONTS)       */
+/* =============================================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+/* =============================================== */
+/* 2. DEFINIÇÃO DAS VARIÁVEIS GLOBAIS            */
+/* =============================================== */
+:root {
+  /* Paleta de Cores */
+  --color-primary: #FF7A00;
+  --color-background: #FFFFFF;
+  --color-surface: #F7F7F7; /* Cor para cards e seções */
+  --color-text-primary: #1E1E1E;
+  --color-text-secondary: #5E5E5E;
+  --color-border: #EAEAEA;
+
+  /* Cores Semânticas */
+  --color-success: #2ECC71;
+  --color-danger: #E74C3C;
+  --color-warning: #F1C40F;
+
+  /* Tipografia */
+  --font-primary: 'Poppins', sans-serif;
+  --font-secondary: 'Roboto', sans-serif;
+}
+
+/* =============================================== */
+/* 3. APLICAÇÃO DOS ESTILOS GLOBAIS              */
+/* =============================================== */
+
+/* Reset básico e aplicação de estilos no body */
+body {
+  margin: 0;
+  font-family: var(--font-secondary); /* Fonte padrão para textos */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+}
+
+/* Estilos para o container principal da aplicação */
+.App {
   text-align: center;
+  padding: 2rem;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* Estilo para títulos principais, usando a fonte primária */
+h1, h2, h3 {
+  font-family: var(--font-primary);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Exemplo de estilo para o container de KPIs */
+.kpi-container {
+  margin-bottom: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.kpis {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
 }
 
-.card {
-  padding: 2em;
+.kpi-card {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  min-width: 200px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
-.read-the-docs {
-  color: #888;
+.kpi-card h3 {
+  margin-top: 0;
+  color: var(--color-text-secondary);
+  font-size: 1rem;
+}
+
+.kpi-card p {
+  margin-bottom: 0;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--color-primary); /* Dando destaque laranja aos números */
+}
+
+/* Estilo para o container do gráfico */
+.chart-container {
+  max-width: 450px;
+  margin: 2rem auto;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.dashboard-layout {
+  display: flex;
+}
+
+.main-content {
+  flex-grow: 1; /* Ocupa todo o espaço restante */
+  padding: 2rem 3rem;
+  height: 100vh;
+  overflow-y: auto; /* Adiciona scroll se o conteúdo for maior que a tela */
+  box-sizing: border-box;
+}
+
+.page-content {
+  text-align: left;
+}
+
+.page-content h1 {
+  margin-top: 0;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Cria 2 colunas de tamanho igual */
+  grid-gap: 2rem; /* Espaçamento entre os itens do grid */
+}
+
+/* Estilo para a tabela */
+.recent-orders-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.recent-orders-table th, .recent-orders-table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.recent-orders-table th {
+  color: var(--color-text-secondary);
+  font-family: var(--font-primary);
+}
+
+/* Estilo para os badges de status */
+.status-badge {
+  padding: 0.25rem 0.5rem;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 0.75rem;
+}
+
+.status-concluded {
+  background-color: #e6f6e6; /* Verde bem claro */
+  color: var(--color-success);
+}
+
+.status-canceled {
+  background-color: #fce8e6; /* Vermelho bem claro */
+  color: var(--color-danger);
 }

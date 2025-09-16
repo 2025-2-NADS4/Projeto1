@@ -1,0 +1,137 @@
+[
+    {
+        "id": "8864b1ab-a175-4b73-b679-7d82aa27e4f9",
+        "storeId": "114e0f0e-c1a4-4c78-ab48-449f39a7c8e5",
+        "name": "Campanha de Happy Hour",
+        "badge": "loyalty",
+        "type": 2,
+        "status": 4,
+        "createdAt": "2025-07-02T07:22:23"
+    },
+    {
+        "id": "49edcf93-e1b6-48f4-b8a0-92c29d41adf8",
+        "storeId": "114e0f0e-c1a4-4c78-ab48-449f39a7c8e5",
+        "name": "Campanha de Dia dos Pais",
+        "badge": "seasonal",
+        "type": 2,
+        "status": 3,
+        "createdAt": "2025-01-28T23:36:04"
+    },
+    {
+        "id": "6f78d5fc-6829-4269-9ebb-f2b8f4f33cc1",
+        "storeId": "a3764e59-819e-45ab-bc0b-1641f92e65f4",
+        "name": "Campanha de Lançamento",
+        "badge": "consumption",
+        "type": 1,
+        "status": 4,
+        "createdAt": "2024-11-21T01:25:01"
+    },
+    {
+        "id": "fea84831-6707-4691-903e-4a7d919509c6",
+        "storeId": "114e0f0e-c1a4-4c78-ab48-449f39a7c8e5",
+        "name": "Campanha de Fidelidade",
+        "badge": "seasonal",
+        "type": 1,
+        "status": 4,
+        "createdAt": "2024-12-08T22:42:49"
+    },
+    {
+        "id": "ec011ec0-2fff-44e5-9f6d-89c74161ed29",
+        "storeId": "a3764e59-819e-45ab-bc0b-1641f92e65f4",
+        "name": "Campanha de Lançamento",
+        "badge": "consumption",
+        "type": 2,
+        "status": 4,
+        "createdAt": "2024-12-15T00:12:42"
+    },
+    {
+        "id": "6572c3f3-8625-4878-955e-b1386aa6c6cd",
+        "storeId": "114e0f0e-c1a4-4c78-ab48-449f39a7c8e5",
+        "name": "Campanha de Fidelidade",
+        "badge": "consumption",
+        "type": 1,
+        "status": 4,
+        "createdAt": "2025-01-24T23:32:46"
+    },
+    {
+        "id": "f05eb1a1-d344-4bc5-b4a7-410b2b88a355",
+        "storeId": "5b53e3d0-89d5-4aed-8cf3-1abdf8da1432",
+        "name": "Campanha de Lançamento",
+        "badge": "seasonal",
+        "type": 1,
+        "status": 4,
+        "createdAt": "2025-02-24T08:47:47"
+    },
+    {
+        "id": "d1645e75-ef83-4ee7-9871-59135fc45663",
+        "storeId": "a3764e59-819e-45ab-bc0b-1641f92e65f4",
+        "name": "Campanha de Fidelidade",
+        "badge": "consumption",
+        "type": 2,
+        "status": 3,
+        "createdAt": "2024-12-19T23:01:37"
+    },
+    {
+        "id": "34fa8f52-9d40-49ca-83f1-d841e3f07cd2",
+        "storeId": "5b53e3d0-89d5-4aed-8cf3-1abdf8da1432",
+        "name": "Campanha de Lançamento",
+        "badge": "seasonal",
+        "type": 1,
+        "status": 4,
+        "createdAt": "2025-04-16T12:08:05"
+    },
+    {
+        "id": "e47af514-0181-4784-836f-33b86e714170",
+        "storeId": "5b53e3d0-89d5-4aed-8cf3-1abdf8da1432",
+        "name": "Campanha de Fidelidade",
+        "badge": "seasonal",
+        "type": 1,
+        "status": 3,
+        "createdAt": "2024-10-10T07:02:45"
+    },
+    {
+        "id": "da61e07b-4bfe-40d9-b138-cdea1f336e29",
+        "storeId": "a3764e59-819e-45ab-bc0b-1641f92e65f4",
+        "name": "Campanha de Fidelidade",
+        "badge": "seasonal",
+        "type": 1,
+        "status": 3,
+        "createdAt": "2025-09-11T22:15:16"
+    },
+    {
+        "id": "7527940b-be73-4b27-b563-3eaeee4a0132",
+        "storeId": "114e0f0e-c1a4-4c78-ab48-449f39a7c8e5",
+        "name": "Campanha de Dia dos Pais",
+        "badge": "loyalty",
+        "type": 2,
+        "status": 4,
+        "createdAt": "2025-02-09T04:30:01"
+    },
+    {
+        "id": "d7262624-185f-4e31-a6c8-98420e3f1093",
+        "storeId": "a3764e59-819e-45ab-bc0b-1641f92e65f4",
+        "name": "Campanha de Fidelidade",
+        "badge": "consumption",
+        "type": 2,
+        "status": 4,
+        "createdAt": "2024-09-28T23:01:20"
+    },
+    {
+        "id": "1e09f0ce-ddaa-407f-ab8b-033f4f611dd5",
+        "storeId": "a3764e59-819e-45ab-bc0b-1641f92e65f4",
+        "name": "Campanha de Dia dos Pais",
+        "badge": "seasonal",
+        "type": 1,
+        "status": 4,
+        "createdAt": "2024-12-24T17:33:43"
+    },
+    {
+        "id": "fbe46f67-8f1d-495b-89c2-acf66281dde5",
+        "storeId": "5b53e3d0-89d5-4aed-8cf3-1abdf8da1432",
+        "name": "Campanha de Lançamento",
+        "badge": "loyalty",
+        "type": 1,
+        "status": 3,
+        "createdAt": "2025-05-27T23:05:17"
+    }
+]
