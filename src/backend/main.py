@@ -91,5 +91,17 @@ def get_recent_orders():
 
     return result.to_dict(orient='records')
 
-# Você pode adicionar os outros endpoints (by_type, by_sales_channel) aqui,
-# adaptando-os da mesma forma se precisar deles.
+# Adicione este código ao final do seu src/backend/main.py
+
+@app.get("/api/performance/by_sales_channel")
+def get_performance_by_channel():
+    df_orders = load_data('orders.json')
+    if df_orders is None: return {}
+
+    # Filtra apenas por pedidos concluídos para a análise de receita
+    df_concluded = df_orders[df_orders['status'] == 'CONCLUDED'].copy()
+    # Extrai o valor total do objeto aninhado 'total'
+    df_concluded['total_value'] = df_concluded['total'].apply(lambda x: x.get('total', 0))
+
+    revenue_by_channel = df_concluded.groupby('salesChannel')['total_value'].sum()
+    return revenue_by_channel.round(2).to_dict()

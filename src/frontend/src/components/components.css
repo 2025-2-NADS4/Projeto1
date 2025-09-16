@@ -1,0 +1,115 @@
+/* Arquivo: src/frontend/src/components.css (versão com layout refinado) */
+
+/* Estilo para o container de KPIs */
+.kpi-container {
+  margin-bottom: 2rem;
+}
+
+.kpis {
+  display: grid;
+  /* Cria 5 colunas para os KPIs em telas maiores */
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.5rem;
+}
+
+.kpi-card {
+  background-color: var(--color-background);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  text-align: center; /* Centraliza o conteúdo do card */
+}
+
+.kpi-card h3 {
+  margin-top: 0;
+  color: var(--color-text-secondary);
+  font-size: 1rem;
+  font-weight: 400; /* Deixa o título do KPI mais leve */
+}
+
+.kpi-card p {
+  margin-bottom: 0;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--color-text-primary);
+}
+
+.kpi-card p.highlight {
+  color: var(--color-primary);
+}
+
+/* Grid principal do Dashboard */
+.dashboard-grid {
+  display: grid;
+  /* Cria 3 colunas de tamanho igual */
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  margin-top: 2rem;
+}
+
+/* Classes para fazer itens ocuparem mais de uma coluna */
+.grid-item-span-2 {
+  grid-column: span 2; /* Ocupa 2 colunas */
+}
+.grid-item-span-3 {
+  grid-column: span 3; /* Ocupa 3 colunas (largura total) */
+}
+
+
+/* Container de Gráfico Genérico */
+.chart-container {
+  background-color: var(--color-background);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Tabela de Pedidos Recentes */
+.recent-orders-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.recent-orders-table th, .recent-orders-table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.recent-orders-table th {
+  color: var(--color-text-secondary);
+}
+
+/* Badges de Status */
+.status-badge {
+  padding: 0.25rem 0.5rem;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 0.75rem;
+}
+
+.status-concluded {
+  background-color: #e6f6e6;
+  color: var(--color-success);
+}
+
+.status-canceled {
+  background-color: #fce8e6;
+  color: var(--color-danger);
+}
+
+/* Media Query para telas menores (ex: celulares) */
+@media (max-width: 992px) {
+  .kpis, .dashboard-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas */
+  }
+}
+
+@media (max-width: 576px) {
+  .kpis, .dashboard-grid {
+    grid-template-columns: 1fr; /* 1 coluna */
+  }
+}

@@ -3,7 +3,8 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Sidebar from '/src/components/Sidebar.jsx';
 import VisaoGeral from './pages/VisaoGeral';
-import './App.css';
+import './App.css'; // Importa os estilos de LAYOUT
+import './components/components.css'; // Importa os estilos de COMPONENTES
 
 // Páginas de exemplo para o futuro
 const VendasPage = () => <div className="page-content"><h1>Análise de Vendas (Em construção)</h1></div>;

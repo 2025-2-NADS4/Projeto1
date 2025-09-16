@@ -23,17 +23,17 @@ const VisaoGeral = () => {
     fetchKpis();
   }, []);
 
-  return (
+return (
     <div className="page-content">
       <h1>Visão Geral</h1>
       
-      {/* Container dos KPIs (agora fora do grid para ficar sempre no topo) */}
+      {/* Container dos KPIs */}
       <div className="kpi-container">
         {error && <p style={{ color: 'red' }}>{error}</p>}
         {!kpis && !error && <p>Carregando KPIs...</p>}
         {kpis && (
           <div className="kpis">
-            <div className="kpi-card"><h3>Receita Total</h3><p>R$ {kpis.total_revenue}</p></div>
+            <div className="kpi-card"><h3>Receita Total</h3><p className="highlight">R$ {kpis.total_revenue}</p></div>
             <div className="kpi-card"><h3>Total de Pedidos</h3><p>{kpis.total_orders}</p></div>
             <div className="kpi-card"><h3>Ticket Médio</h3><p>R$ {kpis.average_ticket}</p></div>
             <div className="kpi-card"><h3>Novos Clientes (30d)</h3><p>{kpis.new_customers_last_30d}</p></div>
@@ -44,17 +44,22 @@ const VisaoGeral = () => {
 
       {/* Grid para os gráficos e tabelas */}
       <div className="dashboard-grid">
-        {/* Este item ocupa a largura total */}
-        <div className="grid-item-full">
+        {/* Este item ocupa 2 colunas */}
+        <div className="grid-item-span-2">
           <RevenueChart />
         </div>
         
-        {/* Estes dois itens ocuparão uma coluna cada, ficando lado a lado */}
+        {/* Este item ocupa 1 coluna */}
         <SalesChannelChart />
-        <RecentOrdersTable />
+
+        {/* Este item ocupa a largura total (3 colunas) */}
+        <div className="grid-item-span-3">
+          <RecentOrdersTable />
+        </div>
       </div>
     </div>
   );
+
 };
 
 export default VisaoGeral;
