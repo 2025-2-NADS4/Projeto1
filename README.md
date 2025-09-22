@@ -1,106 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
 
-# FECAP - Fundação de Comércio Álvares Penteado
-
-<p align="center">
-<a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
-</p>
-
-## Nome do Projeto
-
-## 👥 Equipe
-
-### 👨‍💻 Integrantes:
-- 
-- 
-- 
-- 
-
-## 🧑‍🏫 Professores Orientadores:
-- 
-- 
-- 
-- 
-
-## Descrição
+<h1 align="center">FECAP - Fundação de Comércio Álvares Penteado</h1>
 
 <p align="center">
-<img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
-  Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
+  <a href="https://www.fecap.br/">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado">
+  </a>
 </p>
 
+<h2>📊 Nome do Projeto</h2>
+<p><b>CALOGIC</b> – Sistema Analítico Integrado para Restaurantes Parceiros da Cannoli</p>
 
-<br><br>
+<hr>
 
-### Funcionalidades principais:
+<h2>👥 Equipe</h2>
 
-<br><br>
+<h3>👨‍💻 Integrantes:</h3>
+<ul>
+  <li>Anderson Yavi Fernandez – RA: 24025678</li>
+  <li>Gabriel Gonçalves Pires – RA: 24026518</li>
+  <li>Isabela Nunes Zeferino – RA: 24026460</li>
+  <li>Kaique Neres de Oliveira – RA: 24026134</li>
+  <li>Luiz Felipe Galdino de Carvalho – RA: 24026568</li>
+</ul>
 
+<h3>🧑‍🏫 Professores Orientadores:</h3>
+<ul>
+  <li>Aimar Martins Lopes</li>
+  <li>Eduardo Savino</li>
+  <li>Lucy Mari</li>
+  <li>Ronaldo</li>
+  <li>Edson Barbeiro</li>
+</ul>
 
-## 🛠 Estrutura de pastas
+<hr>
 
--Raiz<br>
-|<br>
-|-->documentos<br>
-  &emsp;|-->antigos<br>
-  &emsp;|Documentação.docx<br>
-|-->executáveis<br>
-  &emsp;|-->windows<br>
-  &emsp;|-->android<br>
-  &emsp;|-->HTML<br>
-|-->imagens<br>
-|-->src<br>
-  &emsp;|-->Backend<br>
-  &emsp;|-->Frontend<br>
-|readme.md<br>
+<h2>📝 Descrição do Projeto</h2>
+<p>
+O <b>CALOGIC</b> é um sistema analítico voltado para a empresa <b>Cannoli</b> e seus restaurantes parceiros.
+</p>
+<p>
+A solução tem como objetivo:
+</p>
+<ul>
+  <li>Melhorar a <b>gestão e análise de dados</b> de desempenho dos restaurantes.</li>
+  <li>Fornecer <b>relatórios detalhados</b> sobre visitas, compras e engajamento de clientes.</li>
+  <li>Gerar <b>dashboards interativos</b> para apoiar decisões estratégicas.</li>
+  <li>Aplicar <b>IA e Machine Learning</b> para extrair insights relevantes.</li>
+</ul>
 
-A pasta raiz contem dois arquivos que devem ser alterados:
+<p align="center">
+  <img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="CALOGIC">
+</p>
 
-<b>README.MD</b>: Arquivo que serve como guia e explicação geral sobre seu projeto. O mesmo que você está lendo agora.
+<hr>
 
-Há também 4 pastas que seguem da seguinte forma:
+<h2>🎯 Objetivos e Metas</h2>
+<ul>
+  <li>Desenvolver relatórios detalhados sobre desempenho dos restaurantes.</li>
+  <li>Mensurar visitas, compras e interações de clientes.</li>
+  <li>Garantir transparência e acessibilidade dos dados.</li>
+  <li>Criar uma plataforma de visualização acessível, segura e intuitiva.</li>
+  <li>Concluir o projeto dentro do prazo (11/08/2025 – 10/11/2025).</li>
+</ul>
 
-<b>documentos</b>: Toda a documentação estará nesta pasta.
+<hr>
 
-<b>executáveis</b>: Binários e executáveis do projeto devem estar nesta pasta.
+<h2>📁 Estrutura de Pastas</h2>
 
-<b>imagens</b>: Imagens do sistema
+<pre>
+Raiz
+│-- documentos
+│   └-- antigos
+│   └-- Documentação.docx
+│-- executáveis
+│   └-- windows
+│   └-- android
+│   └-- HTML
+│-- imagens
+│-- src
+│   └-- Backend
+│   └-- Frontend
+│-- readme.md
+</pre>
 
-<b>src</b>: Pasta que contém o código fonte.
+<hr>
 
-## 📄 Protótipo no Figma 
+<h2>📄 Protótipo no Figma</h2>
+<p>🔗 Disponível em breve.</p>
 
-Você pode visualizar o protótipo do projeto [aqui]
+<hr>
 
-
-## ✔ Linguagens e Tecnologias Usadas
-
+<h2>✔ Linguagens e Tecnologias Usadas</h2>
 <div style="display: flex; align-items: center; gap: 10px;">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" width="40" height="40" alt="Android Studio" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40" alt="Java" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40" alt="JavaScript" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40" alt="Python" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" height="40" alt="Node.js" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" width="40" height="40" alt="Azure" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="40" height="40" alt="SQLite" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="40" height="40" alt="Figma" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" height="40" alt="MySQL" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40" alt="Git" />
 </div>
 
-
+<hr>
 
 <h2>💻 Configuração para Desenvolvimento</h2>
 
-## 🛠 Instalação
+<h3>🛠 Instalação</h3>
+<ul>
+  <li>Clone o repositório.</li>
+  <li>Instale as dependências necessárias.</li>
+  <li>Configure o banco SQLite.</li>
+  <li>Execute o backend em Node.js e o frontend em JavaScript.</li>
+</ul>
 
-<b>Android:</b>
 
-Faça o Download do JOGO.apk no seu celular.
-Execute o APK e siga as instruções de seu telefone.
+<hr>
 
+<h2>📋 Licença</h2>
+<p>
+Este projeto está licenciado sob <b>CC BY 4.0</b>.<br>
+Mais detalhes em: <a href="https://chooser-beta.creativecommons.org/">Creative Commons</a>
+</p>
 
-## 📋 Licença/License
-Utilize o link <https://chooser-beta.creativecommons.org/> para fazer uma licença CC BY 4.0.
+<hr>
 
-## 🎓 Referências
+<h2>🎓 Referências</h2>
+<ol>
+  <li><a href="https://github.com/iuricode/readme-template">Readme Template</a></li>
+  <li><a href="https://github.com/gabrieldejesus/readme-model">Readme Model</a></li>
+</ol>
 
-Aqui estão as referências usadas no projeto.
-
-1. <https://github.com/iuricode/readme-template>
-2. <https://github.com/gabrieldejesus/readme-model>
+</body>
+</html>
