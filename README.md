@@ -76,12 +76,13 @@ A solução tem como objetivo:
 <pre>
 Raiz
 │-- documentos
-│   └-- antigos
+│   └-- Entrega 1 
+│   └-- Entrega 2    
 │   └-- Documentação.docx
 │-- executáveis
-│   └-- windows
-│   └-- android
-│   └-- HTML
+│   └-- src
+│     └-- backend
+│     └-- frontend 
 │-- imagens
 │-- src
 │   └-- Backend
