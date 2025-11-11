@@ -29,7 +29,7 @@
 
 <h3>👨‍💻 Integrantes:</h3>
 <ul>
-  <li><b><a href="https://www.linkedin.com/in/anderson-y-fernandez//">Anderson Yavi Fernandez</a></b> – RA: 24026568</li>
+  <li><b><a href="https://www.linkedin.com/in/anderson-y-fernandez//">Anderson Yavi Fernandez</a></b> – RA: 24025678</li>
   <li><b><a href="https://www.linkedin.com/in/luizfelipegcarvalho/">Luiz Felipe Galdino de Carvalho</a></b> – RA: 24026568</li>
   <li><b><a href="https://www.linkedin.com/in/gabriel-pires-2082b473/">Gabriel Gonçalves Pires</a></b> – RA: 24026518</li>
   <li><b><a href="https://www.linkedin.com/in/isabela-nunes-zeferino/">Isabela Nunes Zeferino</a></b> – RA: 24026460</li>
